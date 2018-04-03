@@ -11,6 +11,8 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
       t.datetime :opening_time
       t.datetime :closing_time
       # t.timestamps
+
+      # t.timestamps null: false ##is this the same at the datetime code above?
     end
   end
 end
